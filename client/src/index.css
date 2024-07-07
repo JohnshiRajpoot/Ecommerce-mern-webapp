@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Navigation Bar */
+.nav {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 1px; 
+  text-transform: uppercase;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); 
+
+.nav-link {
+  font-weight: 300;
+}
+
+.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.nav-brand {
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif; 
+}
+
+/* Footer */
+.footer {
+  color: white;
+  padding: 2rem; 
+  background: #212121; 
+  background: linear-gradient(to right, #333, #212121);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem; 
+}
+
+.footer a:hover {
+  color: #fffaeb;
+  border-bottom: 1px solid #fffaeb;
+}
+
+/* Page Not Found */
+.not-found { 
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found-title {
+  font-size: 5rem; 
+  font-weight: bold;
+}
+
+.not-found-heading {
+  font-weight: normal;
+}
+
+.not-found-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 1rem;
+  margin-top: 1rem; 
+}
+
+.not-found-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Contact Us */
+.contact-section { 
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
